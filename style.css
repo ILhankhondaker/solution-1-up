@@ -146,9 +146,11 @@ body {
     height: 360px;
 
 }
+
 .four-seccontent {
     margin-right: 80px;
 }
+
 /* 5th section */
 
 
@@ -165,9 +167,11 @@ body {
     font-weight: 700;
     line-height: 54px;
 }
+
 .five-seccontent {
-    margin-top: 180px ;
+    margin-top: 180px;
 }
+
 .btn3 {
     background-color: #FF5959;
     border: none;
@@ -203,3 +207,24 @@ footer {
     text-align: center;
     color: white;
 } */
+
+/* ===========CSS Media Queries ========== */
+
+
+/* ========phone responsive ======= */
+@media screen and (max-width: 500px) {
+
+    body {
+        background-color: crimson;
+    }
+}
+
+
+/* Tab responsive  */
+
+@media screen and (min-width: 750px) and (max-width: 800px) {
+
+    body {
+        background-color: #42e0c6;
+    }
+}
