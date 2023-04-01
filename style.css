@@ -208,23 +208,102 @@ footer {
     color: white;
 } */
 
+
+
 /* ===========CSS Media Queries ========== */
 
-
-/* ========phone responsive ======= */
-@media screen and (max-width: 500px) {
-
+/* ==========Phone Device Responsive ============== */
+@media screen and (max-width: 650px) {
     body {
-        background-color: crimson;
+        padding: 20px;
     }
+
+    /* first section design  */
+    .f-sec {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-heading {
+        font-size: 30px;
+    }
+
+    .f-img {
+        width: 326px;
+        height: 450px;
+    }
+
+    /* second section design  */
+    .all-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        padding: 10px;
+        margin: 5px;
+        height: 400px;
+        width: 325px;
+        border-radius: 10px;
+    }
+
+    /* 3rd section  */
+
+
 }
 
 
-/* Tab responsive  */
+/* -=-==========Tab Device ============= */
+@media screen and (min-width:701px) and (max-width:991px) {
+    body {
+        background-color: dimgray;
+    }
 
-@media screen and (min-width: 750px) and (max-width: 800px) {
+    .first-heading {
+        font-size: 40px;
+    }
+
+    .f-img {
+        width: 326px;
+        height: 450px;
+    }
+
+    /* 2nd section design  */
+    .all-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+
+        padding: 10px;
+        margin: 10px;
+        height: 376px;
+        width: auto;
+        border-radius: 10px;
+    }
+
+    /* 3rd section design  */
+    .third-secimg {
+        width: 250px;
+        height: 250px;
+        margin-top: 40px;
+
+    }
+
+    /* 4th section design  */
+    .four-secimg {
+        width: 250px;
+        height: 250px;
+        margin-top: 40px;
+
+    }
+}
+
+/* ===============Larg device ================= */
+@media screen and (min-width: 992px) {
 
     body {
-        background-color: #42e0c6;
+        /* background-color: bisque; */
     }
 }
